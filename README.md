@@ -8,7 +8,7 @@
 
 "Code²: Using Code to Grade Code" is a hands-on workshop designed to help computer science teachers streamline their grading process with practical automation tools. Across three sessions, teachers will learn techniques to manage assignments efficiently, from file organization to automated feedback generation. 
 1. Session 1 introduces foundational tools, including AppleScripts, Google Sheets, and GitHub Classroom. 
-2. Session 2, participants will use both Python and JavaScript to handle CSV files and do pattern matching. 
+2. In Session 2, participants will use both Python and JavaScript to handle CSV files and do pattern matching. 
 3. Session 3 explores command-line commands and scripting to simplify workflows and enhance feedback delivery. Ideal for teachers at any coding level, this workshop will provide practical strategies to streamline assessment workflows.
 
 ---

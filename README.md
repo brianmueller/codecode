@@ -30,7 +30,7 @@
 * Bite-sized time-saving tips (BetterTouchTool, AppleScripts, Google Sheets, Regex, etc)
 * Github Classroom and CS50 tools: Compare50, Submit50, Check50, etc
 
-### Click [here](#) to get started with Session 1
+### Click [here](session1/README.md) to get started with Session 1
 
 ---
 

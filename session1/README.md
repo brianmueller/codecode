@@ -123,6 +123,9 @@ function importGithubContributors(repo) {
 ## Check50?
 
 
+## HW
+
+If you don't already know some Python, it would be helpful to learn a bit before Session 2. The more, the merrier! [[click here](../README.md#suggested-hw-before-session-2-python-basics)]
 
 ## Back
 

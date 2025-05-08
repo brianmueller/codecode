@@ -1,6 +1,16 @@
 # Session 2: Python for Teachers
 
+## [section(s) for Margaret]
 
+* coming soon!
+
+## Pattern matching with Regex > CSV
+
+* coming soon!
+
+## Scraping FCC > CSV > HTML dashboard
+
+* coming soon!
 
 ## HW
 

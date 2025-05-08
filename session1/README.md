@@ -51,6 +51,19 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
 
 * coming soon!
 
+## Regex
+
+_NOTE: this will be particularly useful in Session 2_
+
+Regex = "regular expressions". It's a way of matching patterns in a string.
+
+#### Resources
+
+* Lessons: [RegexOne](https://regexone.com/)
+* Sandbox: [RegExr](https://regexr.com/)
+
+Regex can be used in Google Sheets formulas! [[learn how](https://www.benlcollins.com/spreadsheets/google-sheets-regex-formulas/)]
+
 ## Google Sheets 
 
 ### Templates
@@ -110,16 +123,6 @@ function importGithubContributors(repo) {
 ## Check50?
 
 
-## Regex
-
-_NOTE: this will be particularly useful in Session 2_
-
-Regex = "regular expressions". It's a way of matching patterns in a string.
-
-#### Resources
-
-* Lessons: [RegexOne](https://regexone.com/)
-* Sandbox: [RegExr](https://regexr.com/)
 
 ## Back
 

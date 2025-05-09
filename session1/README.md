@@ -87,30 +87,7 @@ Regex can be used in Google Sheets formulas! [[learn how](https://www.benlcollin
   * Column B: `=A2&"/graphs/contributors"`
     * This is helpful for when the script doesn't work and you need to manually get the usernames
   * Column C: `=importgithubcontributors(A2)`
-  * Script for `importgithubcontributors()`:
-
-```js
-function importGithubContributors(repo) {
-  const slug = repo.substring(19)
-  // console.log(slug)
-
-  const apiUrl = "https://api.github.com/repos/" + slug + "/contributors"
-  // console.log(apiUrl)
-
-  const res = UrlFetchApp.fetch(apiUrl)
-  const dataAsText = res.getContentText()
-  
-  const data = JSON.parse(dataAsText)
-  // console.log(data)
-
-  const results = []
-  for(let i = 0; i < data.length; i++){
-    results.push(data[i]["login"])
-  }
-  console.log(results)
-  return results.join(", ")
-}
-```
+  * Script for `importgithubcontributors()`: [[click here](importgithubcontributors.gs)]
 
 ## HW
 

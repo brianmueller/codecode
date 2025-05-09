@@ -73,11 +73,37 @@ Regex can be used in Google Sheets formulas! [[learn how](https://www.benlcollin
 
 ### Formulas
 
-* coming soon!
+* Converting Google Form responses to your roster of students (including missing students)
+  * [Example](https://docs.google.com/spreadsheets/d/1NyQBR3zch_p65a5xcdBnmAKXaiZzH7s5O57yKhMnPtM/edit?gid=0#gid=0)
+  * In your `Form Responses 1` sheet, add a column with the header `Grade` (or whatever you want, just make sure the name matches what we eventually add to the next tab). This column can be used to give your students a grade that will show up on your roster.
+  * Add a new tab to your Google Sheet. This is where you'll paste your roster. 
+  * Your roster needs to include a column similar to column D (`Grade` or whatever you name it).
+  * In D2, for example: `=iferror(VLOOKUP(A2,'Form Responses 1'!$B:$Z,MATCH(D$1,'Form Responses 1'!$B$1:$Z$1,0),false),"DNS")`
+    * Make sure you update your formula so that the column letters match your roster:
+    * `A2` is where the student email address is (collect these on your Google Form)
+    * If your `Form Responses 1` sheet has more than 26 columns, you will need to adjust your formula accordingly, i.e. `$B:$AD`.
+    * You can use `DNS` (Did Not Submit) or anything else you'd like (i.e. `0`) to indicate that the email address was not found by the `VLOOKUP` in the previous sheet.
+
+![](img/formroster.png)
+
 
 ### String manipulation
 
-* coming soon!
+* Simple hacks
+
+* Github repo URL reformatting
+  * [Example](https://docs.google.com/spreadsheets/d/1U81ODnEp1MlYGapTVqtg_igRlNraB6bF22eWc9G9WRE/edit?gid=0#gid=0)
+  * Assuming column `A` has the repo URL...
+  * Column B
+    * `B1` can contain the filepath of a file in the repo you want to see, i.e. `prep/plan.md`
+    * `B2` would be `=IF(RIGHT($A2,1)="/",$A2&"blob/main/"&B$1,$A2&"/blob/main/"&B$1)`
+  * Column C is the clone URL: `="git@github.com:"&right($A2,len($A2)-19)`
+  * Column D is the command to clone and rename the repo to the username: `="git clone "&C2&" "&mid(C2,16,FIND("/",C2)-16)`
+    * If you want the repo to be named in the format `username-reponame`, add `&"-"&F2` to the end of the formula (and follow the steps below to dynamically get the `reponame`)
+  * Column E is the username, which depends on column F: `=MID(A2,find("/",A2,12)+1,len(A2)-20-len(F2))`
+  * Column F is the reponame: `=RIGHT(A2,len(A2)-find("/",A2,25))`
+  * Column G can be used to insert a filepath if what you need to preview in column H is _not_ `index.html`
+  * Column H can be used to preview a website deployed to github pages, putting all the pieces together!: `="http://"&E2&".github.io/"&F2&"/"&G2`
 
 ### Apps Script
 

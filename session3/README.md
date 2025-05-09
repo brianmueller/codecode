@@ -19,9 +19,14 @@ Most of the tricks below are particularly helpful for grading code collected via
   * For Windows, download the .exe package.
   * For Linux, download the .deb package.
 
+
 ## Snippets
 
-* coming soon!
+## Making Github Classroom projects public in an easy "gallery walk"
+
+TODO: [https://github.com/hstatsep-js/jsprojects]
+
+* more coming soon!
 
 
 ## Compare50

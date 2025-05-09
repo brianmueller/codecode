@@ -43,13 +43,31 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
 
 ![](img/btt-rubric5.png)
 
-* Reformatting Google Slides
-* Pasting commonly-used text, i.e. emojis, symbols (`⌘`), `System.out.println();`, etc
-* Triggering AppleScripts
+##### Non-grading, but still useful
+
+* Rename copies of last year's Google Drive files
+  * If you use year numbers in your file names, use a script to easily renumber them
+  * Make a copy, then use keyboard shortcut to trigger script (i.e. <kbd>⌃⌥⌘</kbd>+<kbd>y</kbd>)
+  * In the following example, `Copy of y2324...` gets renamed to `y2425...`. If you have a different format, just think about what your keystrokes would be.
+    * <kbd>F2</kbd> to rename
+    * <kbd>←</kbd> to go to the beginning of the file name
+    * <kbd>⌥⇧→</kbd> x2 to select the next two words ("Copy of")
+    * <kbd>⌫</kbd> (`fn+delete`) x2 to delete (and the extra space)
+    * [any other keystrokes to change your year numbers]
+
+![](img/btt-rename-gdrive.gif)
+![](img/btt-rename-gdrive.png)
+
+
+* Reformat Google Slides
+* Paste commonly-used text, i.e. emojis, symbols (`⌘`), `System.out.println();`, etc
+* Trigger AppleScripts
 
 ## AppleScripts
 
-* coming soon!
+* TODO: yellkey (+BTT)
+
+* more coming soon!
 
 ## Regex
 

@@ -65,9 +65,17 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
 
 ## AppleScripts
 
-* TODO: yellkey (+BTT)
-
-* more coming soon!
+* Think of AppleScripts like BetterTouchTool, but code-based and with more options, i.e. input from the user (you!)
+* [Template](template.applescript)
+* Clipboard URL > yellkey > Clipboard: [code](yellkey.applescript)
+  * Pro tip: use a BTT keyboard shortcut, i.e. * <kbd>⌃⌥⌘</kbd>+<kbd>k</kbd>
+* Inserting grades into the gradebook based on student row number: [code](gradebook.applescript)
+  * Depends on your spreadsheet/LMS
+  * You can loop this a certain number of times (including asking how many times to loop), and/or trigger this with a keyboard shortcut
+* Other ideas
+  * Manipulating spreadsheets
+  * Setting up your "workspace" of windows
+  * Automating your per session
 
 ## Regex
 

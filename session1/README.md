@@ -146,7 +146,7 @@ How?
 [[internal link: projects]](https://docs.google.com/spreadsheets/d/18_RXsiG2Zlqf9OVA31vWB2YqY-FqALyZRppAzdUTLGg/edit?gid=1588290885#gid=1588290885) | [[internal link: audience]](https://docs.google.com/spreadsheets/d/1txf_uy6TWZnj7UG_62K9vNUjTl4BOFOfl3JYoP29OeM/edit?gid=909879936#gid=909879936)
 
 * _Mail Merge_
-  * You can then use FormMule (or any other Mail Merge you want) to send out the feedback. Here is a sample template:
+  * You can then use [FormMule](https://workspace.google.com/marketplace/app/form_mule_email_merge_utility/968670674230) (or any other Mail Merge you want) to send out the feedback. Here is a sample template:
 ```
 Dear <<FIRST name>>,
 

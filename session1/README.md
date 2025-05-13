@@ -145,6 +145,38 @@ How?
 
 [[internal link: projects]](https://docs.google.com/spreadsheets/d/18_RXsiG2Zlqf9OVA31vWB2YqY-FqALyZRppAzdUTLGg/edit?gid=1588290885#gid=1588290885) | [[internal link: audience]](https://docs.google.com/spreadsheets/d/1txf_uy6TWZnj7UG_62K9vNUjTl4BOFOfl3JYoP29OeM/edit?gid=909879936#gid=909879936)
 
+* _Mail Merge_
+  * You can then use FormMule (or any other Mail Merge you want) to send out the feedback. Here is a sample template:
+```
+Dear <<FIRST name>>,
+
+Below is feedback about your PROJECT NAME:
+
+Period: <<Period>>
+<B>Grade: <<Grade>>/10</B>
+
+<font color="red">
+Teacher's feedback:
+<B><<Teacher Feedback>></B>
+</font>
+
+---
+
+With the feedback below, take each piece of feedback with a grain of salt, but pay special attention to any repeats/patterns.
+
+<B>Class Glows: </B>
+<<Class Glows>>
+
+<B>Class Grows: </B>
+<<Class Grows>>
+
+---
+
+If you have any questions, please respond to this email, or we can chat in-person.
+
+TEACHER'S NAME
+```
+
 ### String manipulation
 
 * Simple hacks

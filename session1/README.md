@@ -76,6 +76,7 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
   * Manipulating spreadsheets
   * Setting up your "workspace" of windows
   * Automating your per session
+* [Other useful AppleScripts](https://github.com/unforswearing/applescript)
 
 ## Regex
 

@@ -100,19 +100,50 @@ Regex can be used in Google Sheets formulas! [[learn how](https://www.benlcollin
 
 ### Formulas
 
-* Converting Google Form responses to your roster of students (including missing students)
-  * [Example](https://docs.google.com/spreadsheets/d/1NyQBR3zch_p65a5xcdBnmAKXaiZzH7s5O57yKhMnPtM/edit?gid=0#gid=0)
-  * In your `Form Responses 1` sheet, add a column with the header `Grade` (or whatever you want, just make sure the name matches what we eventually add to the next tab). This column can be used to give your students a grade that will show up on your roster.
-  * Add a new tab to your Google Sheet. This is where you'll paste your roster. 
-  * Your roster needs to include a column similar to column D (`Grade` or whatever you name it).
-  * In D2, for example: `=iferror(VLOOKUP(A2,'Form Responses 1'!$B:$Z,MATCH(D$1,'Form Responses 1'!$B$1:$Z$1,0),false),"DNS")`
-    * Make sure you update your formula so that the column letters match your roster:
-    * `A2` is where the student email address is (collect these on your Google Form)
-    * If your `Form Responses 1` sheet has more than 26 columns, you will need to adjust your formula accordingly, i.e. `$B:$AD`.
-    * You can use `DNS` (Did Not Submit) or anything else you'd like (i.e. `0`) to indicate that the email address was not found by the `VLOOKUP` in the previous sheet.
+#### Converting Google Form responses to your roster of students (including missing students)
+* [Example](https://docs.google.com/spreadsheets/d/1NyQBR3zch_p65a5xcdBnmAKXaiZzH7s5O57yKhMnPtM/edit?gid=0#gid=0)
+* In your `Form Responses 1` sheet, add a column with the header `Grade` (or whatever you want, just make sure the name matches what we eventually add to the next tab). This column can be used to give your students a grade that will show up on your roster.
+* Add a new tab to your Google Sheet. This is where you'll paste your roster. 
+* Your roster needs to include a column similar to column D (`Grade` or whatever you name it).
+* In D2, for example: `=iferror(VLOOKUP(A2,'Form Responses 1'!$B:$Z,MATCH(D$1,'Form Responses 1'!$B$1:$Z$1,0),false),"DNS")`
+  * Make sure you update your formula so that the column letters match your roster:
+  * `A2` is where the student email address is (collect these on your Google Form)
+  * If your `Form Responses 1` sheet has more than 26 columns, you will need to adjust your formula accordingly, i.e. `$B:$AD`.
+  * You can use `DNS` (Did Not Submit) or anything else you'd like (i.e. `0`) to indicate that the email address was not found by the `VLOOKUP` in the previous sheet.
 
 ![](img/formroster.png)
 
+
+#### Students giving each other feedback
+
+If you want students to give each other feedback (projects, presentations, etc), this is an easy way to collect all feedback and easily compile/email them. In a nutshell, we'll collect feedback like this...
+
+![Audience sheet](img/feedback-responses.png)
+
+...and end up with something like this (easy to mail merge to students)...
+
+![Compiled responses](img/feedback-compiled.png)
+
+How? 
+* _Project sheet_
+  * This could either be your own sheet created from scratch or one fed from a Google Form where students submit their project.
+  * Make a column named "Dropdown" to be used on the next form (as a dropdown). It merges their name (B+C), email (D), and period number (E). Formula: `=C2&" "&D2&" ("&B2&") p"&E2`
+  * ![](img/feedback-formula-dropdown.png)
+  * GLOWS and GROWS columns
+    * In the formula below, change a few things:
+      * `URL to Audience Sheet` needs to be updated in BOTH places. Keep the quotes.
+      * Change `H:H` to the column where the GLOWS or GROWS are
+      * Change `F:F` to the column where the presenter's "Dropdown" name/email is
+      * Change `B2` to where the presenter's email is
+    * Formula: `=TEXTJOIN(CHAR(10), TRUE, FILTER(IMPORTRANGE("URL to Audience Sheet", "'Form Responses 1'!H:H"), REGEXEXTRACT(IMPORTRANGE("URL to Audience Sheet", "'Form Responses 1'!F:F"), "\(([^)]+)\)") = $B2))`
+
+* _Audience form/sheet_
+  * Make a Google Form to collect audience feedback. Use the "Dropdown" name/email from above into this form.
+    * ![](img/feedback-dropdown.png)
+  * Audience responses will populate a Google Sheet. Copy the URL of this sheet (twice) into the formula above.
+  * PRO TIP: copy/paste the feedback into AI and have it flag/filter any inappropriate responses.
+
+[[internal link: projects]](https://docs.google.com/spreadsheets/d/18_RXsiG2Zlqf9OVA31vWB2YqY-FqALyZRppAzdUTLGg/edit?gid=1588290885#gid=1588290885) | [[internal link: audience]](https://docs.google.com/spreadsheets/d/1txf_uy6TWZnj7UG_62K9vNUjTl4BOFOfl3JYoP29OeM/edit?gid=909879936#gid=909879936)
 
 ### String manipulation
 

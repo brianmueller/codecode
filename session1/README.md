@@ -179,8 +179,6 @@ TEACHER'S NAME
 
 ### String manipulation
 
-* Simple hacks
-
 * Github repo URL reformatting
   * [Example](https://docs.google.com/spreadsheets/d/1U81ODnEp1MlYGapTVqtg_igRlNraB6bF22eWc9G9WRE/edit?gid=0#gid=0)
   * Assuming column `A` has the repo URL...

@@ -31,7 +31,7 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
 
 #### Ideas
 
-* Automate **full credit** on Google Classroom [demo]
+* Automate **full credit** on Google Classroom
   * Click first category
   * Keyboard shortcut trigger script (i.e. <kbd>⌃⌥⌘</kbd>+<kbd>5</kbd>)
   * <kbd>TAB</kbd> x3
@@ -40,6 +40,8 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
   * You can have multiple versions of these scripts, i.e.
     * <kbd>⌃⌥⌘</kbd>+<kbd>4</kbd> for 4 rows
     * <kbd>⌃⌥⌘</kbd>+<kbd>5</kbd> for 5 rows
+
+![](img/gclassroom-full-credit.gif)
 
 ![](img/btt-rubric5.png)
 

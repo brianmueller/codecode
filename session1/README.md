@@ -12,6 +12,10 @@
 * Don’t be a hog. Don’t be a log.
 * Collaborate collegially
 * Take breaks as needed
+* Use AI to help you understand/modify/create code!
+  * [ChatGPT](https://chatgpt.com/)
+  * [Claude AI](https://claude.ai/)
+  * [Github Copilot](https://github.com/features/copilot)
 
 ---
 

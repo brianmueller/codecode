@@ -80,7 +80,7 @@ Throughout the sessions, we’ll share templates, scripts, and links to continue
 
 * Margaret Tanzosh
   * Email: `margarettanzosh@nestmk12.net`
-  * [Github](https://github.com/margarettanzosh)
+  * [Github](https://github.com/cs50nestm)
   * [NEST+m](https://nestmk12.net/upper)
 
 ---

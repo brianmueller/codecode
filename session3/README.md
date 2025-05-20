@@ -31,7 +31,7 @@ TODO: [https://github.com/hstatsep-js/jsprojects]
 
 ## Compare50
 
-[Detect similarity in student submitted code](https://cs50.readthedocs.io/projects/compare50/en/latest/)
+* [Detect similarity in student submitted code](https://cs50.readthedocs.io/projects/compare50/en/latest/)
 
 ## Submit50
 

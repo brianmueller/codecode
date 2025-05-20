@@ -45,9 +45,16 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
     * <kbd>⌃⌥⌘</kbd>+<kbd>4</kbd> for 4 rows
     * <kbd>⌃⌥⌘</kbd>+<kbd>5</kbd> for 5 rows
 
+<details>
+<summary>Expand to see demo & code</summary>
+
 ![](img/gclassroom-full-credit.gif)
 
 ![](img/btt-rubric5.png)
+
+</details>
+
+
 
 ##### Non-grading, but still useful
 
@@ -61,8 +68,15 @@ _Windows Alternative: [AutoHotkey](https://www.autohotkey.com/)_
     * <kbd>⌫</kbd> (`fn+delete`) x2 to delete (and the extra space)
     * [any other keystrokes to change your year numbers]
 
+<details>
+<summary>Expand to see demo & code</summary>
+
 ![](img/btt-rename-gdrive.gif)
+
 ![](img/btt-rename-gdrive.png)
+
+
+</details>
 
 
 * Reformat Google Slides
@@ -117,18 +131,35 @@ Regex can be used in Google Sheets formulas! [[learn how](https://www.benlcollin
   * If your `Form Responses 1` sheet has more than 26 columns, you will need to adjust your formula accordingly, i.e. `$B:$AD`.
   * You can use `DNS` (Did Not Submit) or anything else you'd like (i.e. `0`) to indicate that the email address was not found by the `VLOOKUP` in the previous sheet.
 
+<details>
+<summary>Expand to see screenshot</summary>
+
 ![](img/formroster.png)
+
+</details>
+
+
 
 
 #### Students giving each other feedback
 
-If you want students to give each other feedback (projects, presentations, etc), this is an easy way to collect all feedback and easily compile/email them. In a nutshell, we'll collect feedback like this...
+If you want students to give each other feedback (projects, presentations, etc), this is an easy way to collect all feedback and easily compile/email them. 
+
+
+<details>
+<summary>In a nutshell, we'll collect feedback like this...</summary>
 
 ![Audience sheet](img/feedback-responses.png)
 
-...and end up with something like this (easy to mail merge to students)...
+</details>
+
+<details>
+<summary>...and end up with something like this (easy to mail merge to students)...</summary>
 
 ![Compiled responses](img/feedback-compiled.png)
+
+</details>
+
 
 How? 
 * _Project sheet_
@@ -152,7 +183,11 @@ How?
 [[internal link: projects]](https://docs.google.com/spreadsheets/d/18_RXsiG2Zlqf9OVA31vWB2YqY-FqALyZRppAzdUTLGg/edit?gid=1588290885#gid=1588290885) | [[internal link: audience]](https://docs.google.com/spreadsheets/d/1txf_uy6TWZnj7UG_62K9vNUjTl4BOFOfl3JYoP29OeM/edit?gid=909879936#gid=909879936)
 
 * _Mail Merge_
-  * You can then use [FormMule](https://workspace.google.com/marketplace/app/form_mule_email_merge_utility/968670674230) (or any other Mail Merge you want) to send out the feedback. Here is a sample template:
+  * You can then use [FormMule](https://workspace.google.com/marketplace/app/form_mule_email_merge_utility/968670674230) (or any other Mail Merge you want) to send out the feedback. 
+
+<details>
+<summary>Here is a sample template:</summary>
+
 ```
 Dear <<FIRST name>>,
 
@@ -182,6 +217,8 @@ If you have any questions, please respond to this email, or we can chat in-perso
 
 TEACHER'S NAME
 ```
+
+</details>
 
 ### String manipulation
 

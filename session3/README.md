@@ -40,7 +40,7 @@ TODO: [https://github.com/hstatsep-js/jsprojects]
 
 ## Check50
 
-[Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/)
+* [Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/)
 
 ## Back
 

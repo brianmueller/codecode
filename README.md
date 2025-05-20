@@ -30,7 +30,6 @@ Ideal for teachers at any coding level, this workshop will provide practical str
 
 * Overview of the mini-course
 * Bite-sized time-saving tips (BetterTouchTool, AppleScripts, Google Sheets, Regex, etc)
-* Github Classroom and CS50 tools: Compare50, Submit50, Check50, etc
 
 ### Click [here](session1/README.md) to get started with Session 1
 
@@ -66,6 +65,7 @@ _Note: "terminal" / "command line" / "cli" / "bash" all mean the same thing_
 ### Session 3: Terminal Tricks
 
 * Terminal crash course
+* Github Classroom and CS50 tools: Compare50, Submit50, Check50, etc
 * Time-saving snippets
 * Custom aliases for common tasks
 

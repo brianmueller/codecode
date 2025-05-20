@@ -1,8 +1,10 @@
 # Session 2: Python for Teachers
 
-## [section(s) for Margaret]
+## Creating CSV files for uploading grades
 
-* coming soon!
+* Jupiter Grades
+* DOE Grades
+* Others?
 
 ## Pattern matching with Regex > CSV
 

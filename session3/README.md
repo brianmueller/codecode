@@ -31,14 +31,16 @@ TODO: [https://github.com/hstatsep-js/jsprojects]
 
 ## Compare50
 
-
+* [Detect similarity in student submitted code](https://cs50.readthedocs.io/projects/compare50/en/latest/)
 
 ## Submit50
 
-
+* [Command line tool for students to submit work](https://cs50.readthedocs.io/submit50/)
+* [How to use submit50](https://www.youtube.com/watch?v=cEINS4-X82A)
 
 ## Check50
 
+[Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/)
 
 ## Back
 

@@ -35,7 +35,8 @@ TODO: [https://github.com/hstatsep-js/jsprojects]
 
 ## Submit50
 
-[Command line tool for students to submit work](https://cs50.readthedocs.io/submit50/)
+* [Command line tool for students to submit work](https://cs50.readthedocs.io/submit50/)
+* [How to use submit50](https://www.youtube.com/watch?v=cEINS4-X82A)
 
 ## Check50
 

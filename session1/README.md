@@ -250,6 +250,9 @@ TEACHER'S NAME
 
 If you don't already know some Python, it would be helpful to learn a bit before Session 2. The more, the merrier! [[click here](../README.md#suggested-hw-before-session-2-python-basics)]
 
+## Please provide feedback for session 1 here:
+* [Google Form Link](https://docs.google.com/forms/d/e/1FAIpQLScW82Vrq95gaK1oBTHH0gQTARX6zVTB5TdkWCM_K00wc_Lvqg/viewform?usp=preview)
+
 ## Back
 
 [Back to HOME](../README.md)

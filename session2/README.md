@@ -1,10 +1,11 @@
 # Session 2: Python for Teachers
 
-## Creating CSV files for uploading grades
+## Using Pythong with CSV files for uploading grades
 
-* Jupiter Grades
-* DOE Grades
-* Others?
+* Zip Grades to Jupiter Grades
+* GitHub Classroom to Jupiter
+* CS50 Submit50 to Jupiter
+* Python Script to download student work
 
 ## Pattern matching with Regex > CSV
 

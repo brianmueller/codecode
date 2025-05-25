@@ -2,11 +2,11 @@
 
 ## Using Python to automate grading
 
-* Zip Grades to Jupiter Grades
+* [Zip Grades to Jupiter Grades](zip_to_jupiter.py)
 * GitHub Classroom to Jupiter
 * CS50 Submit50 to Jupiter
-* Python Script to download student work
-* Automate opening each downloaded web project 
+* [Python Script to download student work](download_student_work.py)
+* [Automate opening each downloaded web project](open_student_websites.py) 
 
 ## Pattern matching with Regex > CSV
 

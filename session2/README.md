@@ -6,7 +6,7 @@
 * GitHub Classroom to Jupiter
 * CS50 Submit50 to Jupiter
 * Python Script to download student work
-* Then automate opening each web project 
+* Automate opening each web downloaded project 
 
 ## Pattern matching with Regex > CSV
 

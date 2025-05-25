@@ -1,6 +1,6 @@
 # Session 2: Python for Teachers
 
-## Using Pythong with CSV files for uploading grades
+## Using Python with CSV files for automate grading
 
 * Zip Grades to Jupiter Grades
 * GitHub Classroom to Jupiter

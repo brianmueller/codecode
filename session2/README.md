@@ -3,8 +3,7 @@
 ## Using Python to automate grading
 
 * [Zip Grades to Jupiter Grades](zip_to_jupiter.py)
-* GitHub Classroom to Jupiter
-* [CS50 Submit50 to Jupiter](submit50_to_jupiter.py)
+* [CS50 Submit50 / GitHub Classroom to Jupiter](submit50_to_jupiter.py)
 * [Python Script to download student work](download_student_work.py)
 * [Automate opening each downloaded web project](open_student_websites.py) 
 

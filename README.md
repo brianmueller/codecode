@@ -50,6 +50,8 @@ Ideal for teachers at any coding level, this workshop will provide practical str
 * Regex pattern matching
 * Plenty of examples!
 
+### Click [here](session2/README.md) to get started with Session 2
+
 ---
 
 ##### Suggested HW before Session 3: Terminal Basics

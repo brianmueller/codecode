@@ -81,6 +81,7 @@ Throughout the sessions, we’ll share templates, scripts, and links to continue
   * Email: `brianscottmueller@gmail.com`
   * [Github](https://github.com/brianmueller)
   * [HSTAT SEP](https://hstatsep.github.io/)
+  * [Perspective Cone](https://docs.google.com/presentation/d/1s1pkvah2niWr5ylocgvn5GXSmxMrI1xGYTowGQOb2s0/edit?usp=sharing)
 
 * Margaret Tanzosh
   * Email: `margarettanzosh@nestmk12.net`

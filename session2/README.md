@@ -1,5 +1,24 @@
 # Session 2: Python for Teachers
 
+## Icebreaker
+
+* Name (pronouns optional)
+* Where/what you teach
+* If you could have a CSV file of some metric of your own day, what would you like to keep track of? (i.e. macros consumed, minutes spent focused/daydreaming/etc, "Inside Out" emotion dashboard, etc)
+
+### Norms
+
+* Reach out with questions
+* Don’t be a hog. Don’t be a log.
+* Collaborate collegially
+* Take breaks as needed
+* Use AI to help you understand/modify/create code!
+  * [ChatGPT](https://chatgpt.com/)
+  * [Claude AI](https://claude.ai/)
+  * [Github Copilot](https://github.com/features/copilot)
+
+---
+
 ## Using Python to automate grading
 
 * [Zip Grades to Jupiter Grades](zip_to_jupiter.py)

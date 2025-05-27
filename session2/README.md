@@ -12,6 +12,14 @@
 
 By using [patterns.py](patterns.py) and [patterns_student_info.json](patterns_student_info.json) with the file tree below, we can use Regex patterns to give completion grades, all in a tidy CSV format. 
 
+<details>
+
+<summary>The CSV will end up looking something like this</summary>
+
+![](img/patterns_sample_csv.png)
+
+</details>
+
 It helps to then spot check individual student work to check functionality, or even use compare50 (next session) to check plagiarism.
 
 <details>
@@ -60,9 +68,24 @@ It helps to then spot check individual student work to check functionality, or e
 
 
 
-## Scraping FCC > CSV > HTML dashboard
+## Scraping FreeCodeCamp > CSV > HTML dashboard
 
-* coming soon!
+* **NOTE: The FreeCodeCamp API changed recently, so this currently does NOT work. Hopefully a fix will be coming soon! This message will be deleted if/when it is fixed.**
+  * But feel free to use the code that turn the CSV into an HTML dashboard (no API required).
+* Students can complete lessons on [FreeCodeCamp.org](http://freecodecamp.org), but it does not have a good "dashboard" view for teachers.
+* Clone [this repo](https://github.com/bmuellerhstat/grading/tree/main/fcc-scraper), and follow instructions in the `fcc-scraper` directory:
+* Features:
+  * Dashboard of grades, grouped by "assignments" defined in your JSON file
+  * Click on an assignment to see which lessons are completed/missing
+  * Click on a student name to blur the rest (helpful for 1-1 conversations)
+
+<details>
+
+<summary>Click to example of end result</summary>
+
+![](img/fcc-scraper.png)
+
+</details>
 
 ## HW
 

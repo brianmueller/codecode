@@ -22,6 +22,8 @@
 ## Using Python to automate grading
 
 * [Zip Grades to Jupiter Grades](zip_to_jupiter.py)
+* [HTML version of zip->jupiter](https://rpremvaree12.github.io/zip-to-jupiter/)
+
 * [CS50 Submit50 / GitHub Classroom to Jupiter](submit50_to_jupiter.py)
 * [Python Script to download student work](download_student_work.py)
 * [Automate opening each downloaded web project](open_student_websites.py) 

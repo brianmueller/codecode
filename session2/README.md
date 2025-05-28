@@ -89,8 +89,6 @@ It helps to then spot check individual student work to check functionality, or e
 
 ## Scraping FreeCodeCamp > CSV > HTML dashboard
 
-* **NOTE: The FreeCodeCamp API changed recently, so this currently does NOT work. Hopefully a fix will be coming soon! This message will be deleted if/when it is fixed.**
-  * But feel free to use the code that turn the CSV into an HTML dashboard (no API required).
 * Students can complete lessons on [FreeCodeCamp.org](http://freecodecamp.org), but it does not have a good "dashboard" view for teachers.
 * Clone [this repo](https://github.com/bmuellerhstat/grading/tree/main/fcc-scraper), and follow instructions in the `fcc-scraper` directory:
 * Features:

@@ -1,0 +1,280 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #22381f;
+    background-color: #ffdfb5;
+}
+
+p {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.fw,
+fh {
+    display: table;
+}
+
+.fw {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.fh {
+    height: 100%;
+}
+
+.vert-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*splash*/
+
+#splash h1,
+#splash h2,
+#splash h3 {
+    color: #c4d7f1;
+    /*off-white*/
+}
+
+#splash {
+    background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)), url('../img/balloon-1.jpg') center no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75%;
+}
+
+h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*end splash*/
+
+
+/*navbar*/
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 125px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border-width: 0;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*end navbar*/
+
+.dark-brown {
+    background-color: #ceae85;
+}
+
+.section h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.container {
+    padding: 50px 20px;
+}
+
+.container h3 {
+    padding-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+}
+
+.img-small {
+    max-height: 200px;
+}
+
+
+/*info*/
+
+#info {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/balloon-2.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.container h1 {
+    padding-bottom: 20px;
+}
+
+#info-content p {
+    padding-bottom: 20px
+}
+
+#gallery {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/balloon-3.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+#gallery-photos > div > div {
+    padding: 10px;
+}
+
+#testimonials {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/balloon-4.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+blockquote {
+    background-color: #22381f;
+    color: #ffdfb5;
+    border-left: 5px solid #ffdfb5;
+}
+
+.blockquote-reverse {
+    background-color: #4d582a;
+    border-right: 5px solid #ffdfb5;
+}
+
+blockquote footer {
+    color: #ffdfb5;
+}
+
+#contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/balloon-5.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+address {
+    font-size: 1.4em;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #4d582a;
+    padding: 35px;
+}
+
+.footer h3 {
+    color: #ffdfb5;
+    font-size: 25px;
+}
+
+
+/*media queries*/
+
+
+/*small & up*/
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    #slogan-left {
+        text-align: right;
+    }
+    #slogan-right {
+        text-align: left;
+    }
+    .section h1 {
+        font-size: 80px;
+    }
+}
+
+
+/*medium & up*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 150px;
+    }
+    h2 {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+}
+
+
+/*large & up*/
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    h3 {
+        font-size: 60px;
+    }
+}
+
+/*nav*/
+
+.navbar-inverse { background-color: #007FDA}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #007FDA}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #007FDA}
+.dropdown-menu { background-color: #007FDA}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FFFFFF}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #007FDA}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #007FDA}
+.navbar-inverse .navbar-nav>li>a { color: #c4d7f1}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #0F3FAD}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #007FDA}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #007FDA}
+.dropdown-menu>li>a { color: #007FDA}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #007FDA}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #007FDA}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #007FDA}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #007FDA}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #007FDA}
+

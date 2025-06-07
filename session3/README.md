@@ -22,16 +22,27 @@ Most of the tricks below are particularly helpful for grading code collected via
 
 ## Snippets
 
+* Several useful snippets at [snippets.sh](snippets.sh)
+* Recommended usage:
+  * Leave the file open in your favorite text editor.
+  * Copy/paste as needed!
+
 ## Making Github Classroom projects public in an easy "gallery walk"
 
-TODO: [https://github.com/hstatsep-js/jsprojects]
-
-* more coming soon!
+* End result [here](https://brianmueller.github.io/codecode/session3/project-gallery/)
+* How-to: use the [project-gallery](project-gallery) folder
 
 
 ## Compare50
 
 * [Detect similarity in student submitted code](https://cs50.readthedocs.io/projects/compare50/en/latest/)
+* Example at [compare50-example](compare50-example)
+  * GUI of results [here](https://brianmueller.github.io/codecode/session3/compare50-example/results/index.html)
+* Command used: `compare50 submissions/*`
+
+```
+Done! Visit file:///path/to/folder/results/index.html in a web browser to see the results.
+```
 
 ## Submit50
 

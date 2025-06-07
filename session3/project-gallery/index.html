@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+        <style>
+            /* CSS */
+            h1 {
+                margin: 20px 0;
+            }
+
+            #list > li {
+                font-size: 30px;
+                margin-top: 15px;
+            }
+
+        </style>
+
+        <title>JS Projects</title>
+    </head>
+    <body>
+        <!-- HTML -->
+        <div class="container">
+            <h1>Projects</h1>
+            <ul id="list"></ul>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="script.js"></script> -->
+        <script>
+            // JS
+
+            // from google sheet (sort A-Z, remove duplicates, sanitize)
+            let repos = `
+https://github.com/hstatsep-students/p5project-student1-p5project
+https://github.com/hstatsep-students/p5project-student2-p5project
+https://github.com/hstatsep-students/p5project-student3-p5project
+            `
+            let folders = repos.split(/\s/); // each whitespace
+            folders = folders.filter(e =>  e); // only true (non-empty) strings
+            folders = [...new Set(folders)]; // remove un-caught duplicates
+            folders.sort();
+            for(let i = 0; i < folders.length; i++){
+                folders[i] = folders[i].substring(47); // remove https://github.com/hstatsep-students/p5project-
+            }
+            console.log(folders);
+
+            let list = document.querySelector('#list');
+            let baseURL = "https://github.com/brianmueller/codecode/session3/project-gallery"; // replace with your base URL
+            folders.forEach(function(folder){
+                list.innerHTML += `<li><a href="projects/${folder}/index.html" target="_blank">${folder}</a></li>`
+                list.innerHTML += `<ul><li><a href="code.html?group=${folder}" target="_blank">code</a></li></ul>`
+            });
+
+        </script>
+    </body>
+</html>

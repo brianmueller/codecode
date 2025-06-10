@@ -50,6 +50,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Can use with C, Python, HTML, CSS, JavaScript, Java, SQL and others
 * Tools like check50, submit50, style50 installed
 * No need to for students to learn git commands
+* Includes AI Duck to give students hints on how to get started, debug, etc.
 
 ## Check50
 * Create custom checks for text based programming

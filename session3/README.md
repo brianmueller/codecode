@@ -44,14 +44,27 @@ Most of the tricks below are particularly helpful for grading code collected via
 Done! Visit file:///path/to/folder/results/index.html in a web browser to see the results.
 ```
 
-## Submit50
-
-* [Command line tool for students to submit work](https://cs50.readthedocs.io/submit50/)
-* [How to use submit50](https://www.youtube.com/watch?v=cEINS4-X82A)
+## cs50.dev
+* Free online version of Visual Code Studio
+* No need to use [CS50 Curriculum](https://ap.cs50.school) to use cs50.dev, just need a GitHub account
+* Can use with C, Python, HTML, CSS, JavaScript, Java, SQL and others
+* Tools like check50, submit50, style50 installed
+* No need to for students to learn git commands
 
 ## Check50
-
+* Create custom checks for text based programming
+* Student can check for correctness before submitting
+* Same check is used with autograding using submit50
 * [Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/)
+
+## Style50
+* Can give student feedback on styling code
+* Can automatically reformat code for easier reading
+
+## Submit50
+* Command line tool for students to submit work without memorizing git commands
+* [Documentation](https://cs50.readthedocs.io/submit50/)
+* [Setting up classes to view and grade student work](https://www.youtube.com/watch?v=cEINS4-X82A)
 
 ## Back
 

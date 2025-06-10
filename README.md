@@ -71,6 +71,8 @@ _Note: "terminal" / "command line" / "cli" / "bash" all mean the same thing_
 * Time-saving snippets
 * Custom aliases for common tasks
 
+### Click [here](session3/README.md) to get started with Session 3
+
 ---
 
 ## 🔗 Let's Connect

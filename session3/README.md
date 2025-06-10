@@ -49,6 +49,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * No need to use [CS50 Curriculum](https://ap.cs50.school) just need a GitHub account
 * Can use with C, Python, HTML, CSS, JavaScript, Java, SQL and others
 * Tools like check50, submit50, style50 installed
+* Graphical Debugger
 * No need to for students to learn git commands
 * Includes AI Duck to give students hints on how to get started, debug, etc.
 

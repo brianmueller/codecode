@@ -1,5 +1,23 @@
 # Session 3: Terminal Tricks
 
+## Icebreaker
+
+* Name (pronouns optional)
+* "If you could train an AI to do just one part of your job as a teacher, what would it be—and would you trust it?"
+
+### Norms
+
+* Reach out with questions
+* Don’t be a hog. Don’t be a log.
+* Collaborate collegially
+* Take breaks as needed
+* Use AI to help you understand/modify/create code!
+  * [ChatGPT](https://chatgpt.com/)
+  * [Claude AI](https://claude.ai/)
+  * [Github Copilot](https://github.com/features/copilot)
+
+---
+
 Before digging into some terminal tricks, it can be helpful to know how to move your away around the command line. If you haven't already tried the HW and/or feel totally lost, start [here](../README.md#suggested-hw-before-session-3-terminal-basics).
 
 | Command | Explanation | Example |
@@ -52,6 +70,8 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * No need to for students to learn git commands
 * Automatically backed up on github
 * Includes AI Duck to give students hints on how to get started, debug, etc.
+
+[Mueller instructions for students](http://hstatsep.github.io/code50)
 
 ## Check50
 * Create custom checks for text based programming

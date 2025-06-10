@@ -68,7 +68,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Can use with C, Python, HTML, CSS, JavaScript, Java, SQL and others
 * Tools like check50, submit50, style50, debug50 installed
 * No need to for students to learn git commands
-* Automatically backed up on github
+* Student code is automatically backed up on github
 * Includes AI Duck to give students hints on how to get started, debug, etc.
 
 [Mueller instructions for students](http://hstatsep.github.io/code50)

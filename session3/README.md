@@ -79,6 +79,8 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Same check is used with autograding using submit50
 * [Running check50](https://cs50.readthedocs.io/projects/check50/en/latest/check50_user/)
 * [Writing your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/check_writer/)
+* [Check for CS50 cash.py](https://github.com/cs50/problems/blob/2025/x/sentimental/cash/__init__.py)
+* [My own check for letters.py](https://github.com/cs50nestm/checks/tree/2025/letters)
 
 ## Style50
 * Can give student feedback on styling code
@@ -89,6 +91,10 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Command line tool for students to submit work
 * [Documentation](https://cs50.readthedocs.io/submit50/)
 * [Setting up classes to view and grade student work](https://www.youtube.com/watch?v=cEINS4-X82A)
+
+## CS50 Educators Workshop
+* For more about the CS50 Curriculum and Tools
+* [Check out the remote CS50 Educators Workshop](http://cs50.ly/workshop) 
 
 ## Back
 

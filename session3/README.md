@@ -46,7 +46,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 
 ## cs50.dev
 * Free online version of Visual Code Studio
-* No need to use [CS50 Curriculum](https://ap.cs50.school) to use cs50.dev, just need a GitHub account
+* No need to use [CS50 Curriculum](https://ap.cs50.school) just need a GitHub account
 * Can use with C, Python, HTML, CSS, JavaScript, Java, SQL and others
 * Tools like check50, submit50, style50 installed
 * No need to for students to learn git commands
@@ -59,10 +59,11 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 
 ## Style50
 * Can give student feedback on styling code
+* Embedded in cs50.dev codespace
 * Can automatically reformat code for easier reading
 
 ## Submit50
-* Command line tool for students to submit work without memorizing git commands
+* Command line tool for students to submit work
 * [Documentation](https://cs50.readthedocs.io/submit50/)
 * [Setting up classes to view and grade student work](https://www.youtube.com/watch?v=cEINS4-X82A)
 

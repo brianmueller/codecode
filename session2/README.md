@@ -104,6 +104,11 @@ It helps to then spot check individual student work to check functionality, or e
 
 </details>
 
+## Downloading p5js sketches
+
+* [Download a single sketch](downloadSketch.js)
+* [Download multiple sketches](batchDownloadSketches.js)
+
 ## HW
 
 If you don't already know your way around the terminal / command line, it would be helpful to learn a bit before Session 3. The more, the merrier! [[click here](../README.md#suggested-hw-before-session-3-terminal-basics)]

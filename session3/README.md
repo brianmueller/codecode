@@ -57,7 +57,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Create custom checks for text based programming
 * Student can check for correctness before submitting
 * Same check is used with autograding using submit50
-* [Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/)
+* [Creating your own auto checks](https://cs50.readthedocs.io/projects/check50/en/latest/check_writer/)
 
 ## Style50
 * Can give student feedback on styling code

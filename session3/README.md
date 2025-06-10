@@ -51,6 +51,7 @@ Done! Visit file:///path/to/folder/results/index.html in a web browser to see th
 * Tools like check50, submit50, style50 installed
 * Graphical Debugger
 * No need to for students to learn git commands
+* Automatically backed up on github
 * Includes AI Duck to give students hints on how to get started, debug, etc.
 
 ## Check50
